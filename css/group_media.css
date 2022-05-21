@@ -1,0 +1,39 @@
+@media screen and (max-device-width:800px){
+    .ti{
+        padding-left: 5%;
+        font-size: 8vw;
+    }
+    .g_main1{
+        margin-left: 5%;
+        width: 42.5%;
+        height: 140vw;
+        margin-top: 5%;
+    }
+    .g_main2{
+        margin-right: 5%;
+        width: 42.5%;
+        height: 140vw;
+        margin-top: 5%;
+    }
+    .fmm{
+        height: 30vw;
+        margin-bottom: 5vw;
+    }
+    .group_ti{
+        padding-top: 5%;
+        padding-left: 5%;
+        font-size: 5vw;
+    }
+    .group_content{
+        padding-top: 3%;
+        padding-left: 5%;
+        font-size: 2.3vw;
+        padding-right: 5%;
+    }
+    .work{
+        width: 29%;
+        display: inline-block;
+        margin-left: 85%;
+        margin-top: -96%;
+    }
+}
