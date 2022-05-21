@@ -1,0 +1,117 @@
+@media screen and (max-device-width:800px){
+    .layout{
+        padding-top: 30%;
+    }
+    .title{
+        font-size: 6vw;
+    }
+    .content{
+        font-size: 2.5vw;
+    }
+    .hidden{
+        font-size: 2.114514vw;
+    }
+    .box{
+        float: none;
+        position: relative;
+        left: 10%;
+        width: 80%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding-bottom: 2%;
+    }
+    .element1, .element2, .element3{
+        position: inherit;
+        width: auto;
+        padding-bottom: 5%;
+        background-color: #0c2442;
+        background-image: linear-gradient(to right,#0c2442, #323d40);
+        border-radius: 20px;
+        margin-bottom: 3%;
+        cursor: pointer;
+    }
+    .ebox{
+        font-size: 3vw;
+    }
+    .right{
+        display: block;
+        float: none;
+        position: fixed;
+        top: 0%;
+        right: 0%;
+        width: 0%;
+        height: 100%;
+        border-radius: 0px;
+        margin-top: 0%;
+        background-image: linear-gradient(to right,#0c2442, #323d40);
+        margin-bottom: 0%;
+        transition: 0.3s;
+    }
+    .box2{
+        border-radius: 0px;
+        margin-bottom: 0%;
+    }
+    .box3{
+        margin-top: 0%;
+        border-radius: 0px;
+        margin-bottom: 0%;
+    }
+    .noqq{
+        display: none;
+    }
+    .c1, .c2, .c3{
+        position: relative;
+        width: 90%;
+        top: 0.5vmax;
+        left: 3vmax;
+        padding-bottom: 16%;
+        background-repeat: no-repeat;
+        background-size: 100% 130%;
+        background-color: #0c2442;
+        background-position: 0% 70%;
+    }
+    .bottom{
+        margin-top: 0%;
+        font-size: 2.5vw;
+    }
+    .opennav{
+        display: block;
+        position: relative;
+        top: 0%;
+        right: 0%;
+    }
+    .QQ{
+        font-size: 4.5vw;
+    }
+    .close,.QQ{
+        display: inline-block;
+    }
+    .close{
+        position: relative;
+        right: 0%;
+        margin-left: 50%;
+    }
+}
+@media screen and (min-device-width:801px) and (max-width:1100px){
+    .layout{
+        padding-left: 4%;
+    }
+    .title{
+        font-size: 5vw;
+    }
+    .content{
+        font-size: 2vw;
+    }
+    .box{
+        left: 4%;
+        width: 53%;
+    }
+    .right{
+        right: 4%;
+        width: 37%;
+    }
+    .bottom{
+        margin-top: 85%;
+        font-size: 2vw;
+    }
+}
