@@ -1,0 +1,67 @@
+body{
+	background-color: #282D2E;
+    background-image: url(../img/plat.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0% 0%;
+}
+.pl_ma{
+    margin-left: 10%;
+    margin-top: 1.5%;
+    font-size: 2vw;
+    color: azure;
+    display: inline-block;
+}
+.pl_no{
+    margin-top: 2%;
+    font-size: 1vw;
+    color: gray;
+    display: inline-block;
+}
+.pl_mo{
+    margin-top: 1.5%;
+}
+.pl_module{
+    margin-left: 10%;
+    width: 35%;
+    height: 10vw;
+    background-image: linear-gradient(to right,#0c2442, #323d40);
+    border-radius: 25px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 1px 1px 10px black;
+    cursor: pointer;
+}
+.pl_module:hover{
+    box-shadow: 1px 1px 20px pink;
+}
+.acfun{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+.bilibili{
+    width: 55%;
+    margin-left: 23%;
+    margin-top: 2%;
+}
+.weibo{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+.twitter{
+    width: 80%;
+    margin-left: 12%;
+    margin-top: -6%;
+}
+.zhihu{
+    width: 50%;
+    margin-left: 23%;
+    margin-top: -6%;
+}
+.moto{
+    width: 80%;
+    margin-left: 12%;
+    margin-top: 7.5%;
+}

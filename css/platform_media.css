@@ -1,0 +1,53 @@
+@media screen and (max-device-width:800px){
+    .ti{
+        font-size: 8vw;
+        padding-left: 5%;
+    }
+    .pl_ma{
+        font-size: 4vw;
+        margin-top: 4vw;
+        margin-left: 5%;
+    }
+    .pl_no{
+        font-size: 2vw;
+        margin-top: 4vw;
+    }
+    .pl_mo{
+        margin-top: 3vw;
+    }
+    .pl_module{
+        width: 42.5%;
+        height: 20vw;
+        margin-left: 5%;
+    }
+    .acfun{
+        width: 80%;
+        margin-left: 8%;
+        margin-top: 9%;
+    }
+    .bilibili{
+        width: 70%;
+        margin-left: 14%;
+        margin-top: 7%;
+    }
+    .weibo{
+        width: 85%;
+        margin-left: 6%;
+        margin-top: 8%;
+    }
+    .twitter{
+        width: 90%;
+        margin-left: 6%;
+        margin-top: 0%;
+    }
+    .zhihu{
+        width: 60%;
+        margin-left: 18%;
+        margin-top: -1%;
+    }
+    .moto{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+}

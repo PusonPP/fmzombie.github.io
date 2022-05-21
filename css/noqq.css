@@ -1,0 +1,34 @@
+*{
+	padding: 0%;
+	margin: 0%;
+}
+.ti{
+    text-align: center;
+    font-size: 4vw;
+    color: aliceblue;
+}
+body{
+	background-color: #282D2E;
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0% 0%;
+}
+.qrleft{
+    float: left;
+    padding-left: 15%;
+    margin-top: 5%;
+}
+.wrd{
+    text-align: center;
+    color: aliceblue;
+    font-size: 2.5vw;
+}
+.qrright{
+    float: right;
+    padding-right: 15%;
+    margin-top: 5%;
+}
+.ig:hover{
+    box-shadow: 1px 1px 10px black;
+}
