@@ -112,10 +112,28 @@
     background: url(https://s2.loli.net/2022/04/03/qadklrhDLIc2Tn4.png) left center no-repeat,linear-gradient(to right, #27FDFD, #4DF979);
     background-size: contain;
 }
-.g3{
-    background: url(https://s2.loli.net/2022/04/03/kSE5BF3qUMZmcIe.png) left center no-repeat,linear-gradient(to right, #0027FF, #6400FF);
+.g3 {
+    background: url(https://s2.loli.net/2025/05/15/XlLYvfbdHUtn21h.png) left center no-repeat,
+                linear-gradient(45deg, #e40166, #faee37, #4fd1c5, #38b2ac, #3182ce, #9f7aea, #ed64a6);
     background-size: contain;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    animation: color-shift 5s linear infinite;
 }
+
+@keyframes color-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .g1:hover{
     filter: brightness(120%);
     box-shadow: 1px 1px 10px black;
@@ -130,6 +148,13 @@
     filter: brightness(120%);
     box-shadow: 1px 1px 10px black;
 
+}
+#g3c {
+    visibility: hidden;
+    width: 0;
+    height: 50;
+    margin: 0;
+    padding: 25;
 }
 .g1h,.g2h,.g3h{
     display: none;
